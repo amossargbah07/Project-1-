@@ -1,4 +1,8 @@
 /* styles.css - simple modern styles with light/dark theme */
+table,th,td,tr {
+    border:1px solid black;
+}
+
 :root{
   --bg:#f6f8fa;
   --card:#ffffff;
