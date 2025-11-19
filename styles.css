@@ -6,7 +6,7 @@ table,th,td,tr {
 :root{
   --bg:#f6f8fa;
   --card:#ffffff;
-  --text:#0b2545;
+  --text:white;
   --muted:#556078;
   --accent:#2b8aef;
   --radius:10px;
@@ -33,7 +33,7 @@ body{
 .site{display:flex;flex-direction:column;min-height:100vh}
 .container{max-width:var(--max-width);margin:28px auto;padding:24px;background:var(--card);border-radius:var(--radius);box-shadow:0 6px 18px rgba(11,37,73,0.08)}
 .site-header{display:flex;align-items:center;justify-content:space-between;padding:18px 24px;background:transparent}
-.site-header h1{margin:0;font-size:1.6rem;letter-spacing:-0.5px}
+.site-header h1{margin:0;font-size:1.6rem;letter-spacing:-0.5px;}
 .header-actions{display:flex;gap:8px;align-items:center}
 #theme-toggle{background:transparent;border:1px solid var(--accent);color:var(--accent);padding:8px 12px;border-radius:6px;cursor:pointer}
 #theme-toggle[aria-pressed='true']{background:var(--accent);color:white}
@@ -42,7 +42,7 @@ h2,h3{color:var(--text)}
 p{color:var(--muted)}
 ul,ol{margin-left:1.2rem}
 table{width:100%;border-collapse:collapse;margin-top:12px}
-th,td{padding:10px;border-bottom:1px solid rgba(11,37,73,0.06);text-align:left}
+th,td{padding:10px;border-bottom:0px solid rgba(11,37,73,0.06);text-align:left}
 th{background:transparent;color:var(--text)}
 .learn-more input[type=submit],input[type=submit]{background:var(--accent);color:white;border:0;padding:10px 14px;border-radius:8px;cursor:pointer}
 .video-wrap{margin:16px 0;max-width:100%;display:flex;justify-content:center}
