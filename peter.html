@@ -2,13 +2,16 @@
 <html>
 <head>
 <title>Simon Peter</title>
+<link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
 </head>
+
+ 
 <style>
     #my-group {
         text-align:center;
-        background-color:gray;
         padding-bottom:10px;
-        color:black
+        color:#9fb3d6;
     }
 
     .my-image {
@@ -22,37 +25,45 @@
 
     </style>
 <body style="background-color:gray;">
+<div class="site">
+  <header class="site-header">
+    <div class="header-actions">
+      <button id="theme-toggle" aria-pressed="false">Toggle theme</button>
+    </div>
+  </header>
+  <main class="container">
 
+  <a id="top"></a>
   <h1 id="my-group"><i>The Gospel of Simon Peter</i></h1>
 
   <img src="Saint_Peter-Sinai_(6th_Century)_Crop.jpg" class="my-image" alt="Simon Peter" width="400" height="300 "/> 
    <br>
-   <p><b>Simon Peter, originally named Simon, was born in Bethsaida, a fishing village in Galilee.
+   <p><i>Simon Peter, originally named Simon, was born in Bethsaida, a fishing village in Galilee.
      He later lived in Capernaum and worked as a fisherman with his brother Andrew.
      Andrew was the one who first brought him to Jesus, and Jesus gave Simon the new name “Peter” (from the Greek Petros, meaning “rock”).
-      This name symbolized the leadership role Peter would eventually take in the early church.</b></p>
+      This name symbolized the leadership role Peter would eventually take in the early church.</i></p>
       <br>
-<p><b>Peter quickly became one of Jesus closest disciples, part of the inner circle along with James and John. 
+<p><i>Peter quickly became one of Jesus closest disciples, part of the inner circle along with James and John. 
     He witnessed major events such as the Transfiguration, the raising of Jairus daughter,
      and Jesus walking on water an event where Peter himself briefly walked on the water toward Jesus before sinking due to fear. 
      Peter was bold, outspoken, and deeply loyal, although imperfect. During Jesus arrest, Peter denied knowing Him three times, just as Jesus predicted.
      But after the resurrection, Jesus restored Peter by asking three times, <mark>“Do you love me?”</mark> and commissioning him to “feed my sheep,” confirming his leadership.
 After Jesus ascended into heaven, Peter became the main leader of the early Christian church. He boldly preached on the Day of Pentecost, leading about 3,000 people to Christ in a single day.
- He performed miracles, healed the sick, confronted religious leaders, and traveled across regions such as Judea, Samaria, Joppa, Caesarea, and possibly Rome.
-  One of his major breakthroughs was receiving a vision from God showing that the gospel was also for Gentiles (non-Jews). This led him to share the message with the Roman centurion Cornelius,
-   marking a turning point in Christian history.
+He performed miracles, healed the sick, confronted religious leaders, and traveled across regions such as Judea, Samaria, Joppa, Caesarea, and possibly Rome.
+One of his major breakthroughs was receiving a vision from God showing that the gospel was also for Gentiles (non-Jews). This led him to share the message with the Roman centurion Cornelius,
+marking a turning point in Christian history.
 Peter later wrote 1 Peter and 2 Peter, letters that encouraged believers to stay strong during persecution.
- According to early Christian tradition, Peter eventually went to Rome, where he was martyred during Emperor Nero rule, reportedly crucified upside down because he felt unworthy to die like Jesus.
-Today, Simon Peter is remembered as a man of strong faith, human weakness, and incredible transformation—proof that God can turn an ordinary person into a powerful leader for His kingdom.</b></p>
-
-<h2 id="my-group"><u>Key Facts About Simon Peter</u></h2>
+According to early Christian tradition, Peter eventually went to Rome, where he was martyred during Emperor Nero rule, reportedly crucified upside down because he felt unworthy to die like Jesus.
+Today, Simon Peter is remembered as a man of strong faith, human weakness, and incredible transformation proof that God can turn an ordinary person into a powerful leader for His kingdom.</i></p>
+<hr>
+<h2 id="my-group">Key Facts About Simon Peter</h2>
   <ul><i>
     <li>He was born in Bethsaida in Galilee.</li>
     <li>He was a fisherman before following Jesus.</li>
     <li>His birth name was Simon;Jesus renamed him Peter("rock").</li>
   </i></ul>
-
-  <h2 id="my-group"><u>About Simon Peter</u></h2>
+<hr>
+  <h2 id="my-group">About Simon Peter</h2>
      <ul><i>
         <li>He healed the sick and even raised Dorcas from the dead.</li>
         <li>He preached boldly on the Day of Pentecost, leading 3,000 people conversions.</li>
@@ -65,5 +76,9 @@ Today, Simon Peter is remembered as a man of strong faith, human weakness, and i
      <iframe width="800" height="400" src="https://www.youtube.com/embed/O7WWi65gb14?si=c70FjfDtqAMpTkp0" class="my-image" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
     <h2 id="my-group"><i>Thanks for viewing this page.</i></h2>
+     <footer class="site-footer">
+        <p>© <span id="year"></span> — Created with care.</p>
+         <a class="back-Top" href="#Top"><button on click="displayResult()">Top</button></a>
+    </footer>
 </body>
 </html>

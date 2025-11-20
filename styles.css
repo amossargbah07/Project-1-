@@ -6,7 +6,7 @@ table,th,td,tr {
 :root{
   --bg:#f6f8fa;
   --card:#ffffff;
-  --text:white;
+  --text:black;
   --muted:#556078;
   --accent:#2b8aef;
   --radius:10px;
